@@ -1,0 +1,1 @@
+flask --app flight-search-service run --port=8080 --debug
