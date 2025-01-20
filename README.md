@@ -1,4 +1,4 @@
-# Flight search service
+# Flight search service #
 Fourth project of non-relational databases
 
 [Flight search service API](https://mif-nosql-assignments.s3.eu-central-1.amazonaws.com/2024/neo4j/neo4j-1.html) - reference point
@@ -18,8 +18,8 @@ pytest ./test/test_api.py
 
 For linux/mac:
 ```shell
-python -m venv ./.venv
-source ./.venv/Scripts/activate.bat
-pip3 install -r requirements.txt
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 pytest ./test/test_api.py
 ```
